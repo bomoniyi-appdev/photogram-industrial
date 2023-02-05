@@ -62,7 +62,7 @@ usernames.each do |username|
   end
 
   ending = Time.now
-  p "It took #{(ending - starting).to_i} seconds to create sample data."
+  p "It took #{(ending - starting).to_i} seconds to create sample data.
   p "There are now #{User.count} users."
   p "There are now #{FollowRequest.count} follow requests."
   p "There are now #{Photo.count} photos."
